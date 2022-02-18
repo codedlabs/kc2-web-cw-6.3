@@ -21,7 +21,7 @@ function calculate() {
     status = "تعاني من السمنة المفرطة";
   }
 
-  BMI = BMI.toFixed(2);
+  BMI = BMI.toFixed(2); // Optional
   document.getElementById("result").innerHTML = BMI;
   document.getElementsByClassName("comment")[0].innerHTML = status;
 }
